@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.muted {
+  color: lightgray;
+}
+
+table.header-sticky thead {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
