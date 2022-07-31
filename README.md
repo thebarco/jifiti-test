@@ -4,9 +4,14 @@ In order to run this project, please follow the instructions below.
 # To run it via docker:
 Run the backend:
 1. Open the command line and navigate to '/backend' directory
-2. Execute: docker build -f Dockerfile -t barco-server .
-3. Execute: docker run -it -e AUTH_KEY=<YOUR_AUTH_KEY> -p 8080:8080 barco-server
-
+2. Execute: 
+  ```
+  docker build -f Dockerfile -t barco-server .
+  ```
+3. Execute: 
+  ```
+  docker run -it -e AUTH_KEY=<YOUR_AUTH_KEY> -p 8080:8080 barco-server
+  ```
 Run the client:
 1. Open the command line and navigate to the main directory - 'jifity-test'
 2. Execute: 
