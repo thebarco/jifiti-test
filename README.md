@@ -31,4 +31,4 @@ Please make sure to have both [Node.js](https://nodejs.org/en/download/) & [dock
 
 
 
-To start using this application, please navigate to http://localhost:3030/
+To start using this application, please navigate to http://localhost:3000/
